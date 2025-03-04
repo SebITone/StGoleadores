@@ -5,7 +5,7 @@ import seaborn as sns
 import streamlit as st
 
 #Leer datos
-goleadores = pd.read_csv('C:/Users/admin/Desktop/Streamlit/goalscorers.csv')
+goleadores = pd.read_csv('C:/Users/admin/Desktop/Streamlit/St_Goleadores/goalscorers.csv')
 
 # Asegurar que todos los valores en 'scorer' sean cadenas y manejar nulos
 goleadores['scorer'] = goleadores['scorer'].fillna('Desconocido').astype(str)
